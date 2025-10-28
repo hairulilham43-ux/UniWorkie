@@ -27,6 +27,8 @@
 1. Copy the project folder to your XAMPP `htdocs` (e.g. `C:\xampp\htdocs\UniWorkie_Idea2025`).  
 2. Create a MySQL database via phpMyAdmin (e.g. `uniworkie_db`) and import any provided SQL schema.  
 3. Update your database credentials in the project config (e.g. `config.php` or `db.php`):
+4. Start Apache & MySQL in XAMPP.
+5. Visit http://localhost/UniWorkie_Idea2025/ in your browser.
 ```php
 // example config.php
 <?php
@@ -35,5 +37,4 @@ $db   = 'uniworkiedatabase';
 $user = 'root';
 $pass = ''; // default for XAMPP
 ?>
- 4.Start Apache & MySQL in XAMPP.
- 5.Visit http://localhost/UniWorkie_Idea2025/ in your browser.
+
