@@ -35,6 +35,5 @@ $db   = 'uniworkiedatabase';
 $user = 'root';
 $pass = ''; // default for XAMPP
 ?>
-
  4.Start Apache & MySQL in XAMPP.
  5.Visit http://localhost/UniWorkie_Idea2025/ in your browser.
